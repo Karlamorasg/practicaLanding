@@ -1,0 +1,204 @@
+#logo{
+
+    width: 60px;
+    vertical-align: middle;
+}
+
+
+body{
+    margin: 0;
+    font-family:'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h4, h6 {
+font-family: 'Fjalla One', sans-serif;
+font-weight: normal;
+
+}
+
+h1{
+    font-size: 35px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color: white;
+    margin: 0px 500px 70px 30px;
+}
+
+h1 strong{
+    color: rgb(219, 112, 162);
+    font-weight: bold;
+
+}
+
+.hero{
+    padding-top: 10px;
+    height: 300px;
+    background-image: url(./access/logoK.jpeg);
+    background-color: cadetblue;
+    background-size: 500px 400px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+#sobremi{
+  height: 300px;
+   background-image: url(./access/bebesmios.jpeg);
+   background-color: cadetblue;
+   background-size: 500px 400px;
+   background-repeat: no-repeat;
+   background-position-x: right ;
+   color: white;
+   border: grey solid 2px;
+   border-radius: 5px;
+}
+.sobremi-details{
+    margin: 0px 500px 70px 30px;
+}
+
+.sobremi-details h2{
+    color:rgb(219, 112, 162);
+
+}
+
+.header{
+    background-color: rgb(219, 112, 162);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header div figure{
+    margin: 0;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.menu{
+    height: inherit;
+}
+
+.portafolio{
+    margin: 10px;
+    padding: 5px;
+    border: 2px grey solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portafolio h2 {
+    text-transform: uppercase;
+}
+
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* figure {
+    margin: 0;
+} */
+
+
+.contacto {
+    margin: 10px;
+    padding: 5px 30px;
+    border: 2px grey solid;
+    border-radius: 5px;
+    display: flex;  
+    align-items: center;   
+    justify-content: space-between;
+}
+
+.social{
+    margin: 0 10px;
+}
+
+.social-link {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+    align-items: center;
+    background-size: 50px 50px;
+    margin: 0 7px;
+    
+    
+}
+
+
+.social-link.facebook{
+    background-image: url(./access/facebook.jpg);
+}
+
+.social-link.twitter{
+    background-image: url(./access/twitter.png);
+}
+
+.social-link.instagram{
+    background-image: url(./access/instagram.jpg);
+    
+}
+
+.social p{
+    line-height: 0;
+}
+
+
+.form-contacto input{
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px gray solid;
+    padding: 5px 30px;
+    background-image: url(./access/correo.jpg);
+    background-position-y: center;
+    background-position-x: 2px ;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;  
+
+}
+
+.form-contacto button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    padding: 5px 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.footer{
+    background-color: rgb(219, 112, 162);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.footer img{
+    vertical-align: middle;
+}
