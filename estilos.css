@@ -190,6 +190,16 @@ ol, ul {
     margin-bottom: 10px;
 }
 
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+}
+
+
 .footer{
     background-color: rgb(219, 112, 162);
     color: white;
